@@ -13,7 +13,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (secretNumber === guess) {
     displayMessage('🎉 correct number');
     document.querySelector('.number').textContent = secretNumber;
-    document.querySelector('body').style.backgroundColor = '#60b347';
+    document.querySelector('body').style.backgroundColor = '#3d85c6';
     document.querySelector('.number').style.width = '30rem';
     if (score > highScore) {
       console.log(score, highScore);
